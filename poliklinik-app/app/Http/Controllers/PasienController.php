@@ -38,4 +38,9 @@ class PasienController extends Controller
         return redirect()->route('pasien');
     }
 
+    public function riwayatpasien(){
+        $data = Pasien::all();
+        return view('riwayatpasien',compact('data'));
+    }
+
 }

@@ -177,7 +177,7 @@
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <img src="{{ asset('tamplate/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Admin</span>
+      <span class="brand-text font-weight-light">Dokter</span>
     </a>
 
     <!-- Sidebar -->
@@ -209,22 +209,22 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <!-- <li class="nav-item menu-open"> 
-            <a href="/welcome" class="">
+          <!--<li class="nav-item menu-open">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
                 <i class="right fas fa-angle-left"></i>
               </p>
-            </a>-->
-            <!-- <ul class="nav nav-treeview"> 
-              <li class="nav-item">
+            </a>
+            <ul class="nav nav-treeview">-->
+              <!--<li class="nav-item">
                 <a href="./index.html" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v1</p>
                 </a>
               </li>
-              <li class="nav-item">
+               <li class="nav-item"> 
                 <a href="./index2.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v2</p>
@@ -247,62 +247,67 @@
               </p>
             </a>
           </li>-->
-          <!-- sidebar menu -->
+
           <li class="nav-item">
-            <a href="/welcome" class="nav-link">
+            <a href="/dokterpage" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Dashboard
-                <span class="right badge badge-success">Admin</span>
+                <span class="right badge badge-danger">Dokter</span>
               </p>
-            </a>
+            </a>  
           </li>
+          
           <li class="nav-item">
-            <a href="/dokter" class="nav-link">
+            <a href="/jadwalperiksa" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Dokter
-                <span class="right badge badge-success">Admin</span>
+                Jadwal Periksa
+                <span class="right badge badge-danger">Dokter</span>
               </p>
-            </a>
+            </a>  
           </li>
+
           <li class="nav-item">
-            <a href="#" class="nav-link active">
+            <a href="" class="nav-link active">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Pasien
-                <span class="right badge badge-success">Admin</span>
+                Memeriksa Pasien
+                <span class="right badge badge-danger">Dokter</span>
               </p>
-            </a>
+            </a>  
           </li>
+
           <li class="nav-item">
-            <a href="/poli" class="nav-link">
+            <a href="/riwayatpasien" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Poli
-                <span class="right badge badge-success">Admin</span>
+                Riwayat Pasien
+                <span class="right badge badge-danger">Dokter</span>
               </p>
-            </a>
+            </a>  
           </li>
+
           <li class="nav-item">
-            <a href="/obat" class="nav-link">
+            <a href="/profile" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                obat
-                <span class="right badge badge-success">Admin</span>
+                Profil
+                <span class="right badge badge-danger">Dokter</span>
               </p>
-            </a>
+            </a>  
           </li>
+
           <li class="nav-item">
-            <a href="\logout" class="nav-link">
+            <a href="/logout" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Logout
-                <span class="right badge badge-success">Admin</span>
+                <span class="right badge badge-danger">out</span>
               </p>
             </a>
           </li>
-          <!-- <li class="nav-item"> 
+         <!-- <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
@@ -894,7 +899,7 @@
               <i class="nav-icon far fa-circle text-info"></i>
               <p>Informational</p>
             </a>
-          </li>-->
+           </li> -->
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

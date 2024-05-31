@@ -17,7 +17,7 @@ class LoginController extends Controller
 
     public function loginproses(Request $request){
         if(Auth::attempt($request->only('name','password'))){
-            return redirect('/');
+            return redirect('/welcome');
         }
 
         return \redirect('login');
@@ -72,6 +72,33 @@ class LoginController extends Controller
         return \redirect('/logindokter');
     }
 
+   // login pasien
+   public function loginpasien(){
+    return view('loginpasien');
+}
+
+public function loginpasienproses(Request $request){
+    if(Auth::attempt($request->only('name','password'))){
+        return redirect ('/pasienmenu');
+    }
+
+    return \redirect('loginpasien');
+}
+
+public function registerpasien(){
+    return view('registerpasien');
+}
+
+public function registerpasiens(Request $request){
+    // dd($request->all());
+    User::create([
+        'name' => $request->name,
+        'password' => bcrypt($request->password),
+        'remember_token' => Str::random(60),
+    ]);
+
+    return \redirect('/loginpasien');
+}
 
 
 
