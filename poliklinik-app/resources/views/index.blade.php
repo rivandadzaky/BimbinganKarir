@@ -15,8 +15,8 @@
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Login Untuk Admin</h5>
+        {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
         <a href="/login" class="btn btn-primary">Login admin</a>
       </div>
     </div>
@@ -24,8 +24,8 @@
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Login Untuk Dokter</h5>
+        {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
         <a href="/logindokter" class="btn btn-primary">Login dokter</a>
       </div>
     </div>
@@ -33,8 +33,8 @@
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Login Untuk Pasien</h5>
+        {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
         <a href="/loginpasien" class="btn btn-primary">Login pasien</a>
       </div>
     </div>
